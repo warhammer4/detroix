@@ -1,0 +1,70 @@
+/*
+Colors
+primay color #1313c9
+secondat color #ff801
+background color f3f4f6
+link color 5a6674
+button color 1e3346
+bottom bar 0b1016
+gradient 385a7f
+
+text 
+font-family: 'Oswald', serif;
+*/
+:root {
+    --primColor: hsla(237, 97%, 11%, 0.62);
+    --secColor:#019eff;
+    --btnColor: #46311e96;
+    --font: 'oswald', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    /*background-color:ff801 ;*/
+}
+.inner{
+    margin: 0 auto;
+    width: 960px;
+    
+}
+.top-section {
+    padding-right: 0;
+    width: 100%;
+    background-color: var(--primColor);
+}
+.top-list{
+    margin: 0%;
+    padding-left: 0;
+    list-style-type: none;
+
+}
+.top-nav {
+    /*border: 1px solid white;*/
+    float:right;
+}
+.top-section a{
+    color: #546674;
+    font-family: sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.top-section a:hover{
+    color: #546674;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.top-list-item{
+    display: inline-block;
+    border-right: 1px solid #21219e66;
+    padding-right: 0;
+}
+
+
